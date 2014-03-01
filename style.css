@@ -1,0 +1,38 @@
+
+
+.title, .title a {
+	color: #ebbc4a !important;
+	text-shadow: 0 0 2px #ebbc4a !important;
+	
+	text-decoration: none;
+}
+.center {
+	text-align: center;
+}
+.subtitle {
+	color: white;
+	text-shadow: 0 0 2px white;
+	cursor: default;
+
+}
+
+
+
+.items_diff {
+	float: right;
+	padding-right: 140px;
+}
+
+.sorter {
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
