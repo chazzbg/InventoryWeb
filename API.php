@@ -257,8 +257,8 @@ class API {
 				$this->inventory[$resourceType][$item[2]['flipCard']['flipCardType']] += 1;
 			} else if ($resourceType == 'PORTAL_LINK_KEY') {
 				$loc    = explode(',', $item[2]['portalCoupler']['portalLocation']);
-				$loc[0] = hexdec($loc[0]) / 1e6;
-				$loc[1] = hexdec($loc[1]) / 1e6;
+				$loc[0] = hexdecs($loc[0]) / 1e6;
+				$loc[1] = hexdecs($loc[1]) / 1e6;
 				$guid   = $item[2]['portalCoupler']['portalGuid'];
 				if (isset($this->inventory[$resourceType][$guid])) {
 					$this->inventory[$resourceType][$guid]['count']++;
