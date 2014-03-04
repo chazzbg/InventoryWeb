@@ -1,0 +1,3 @@
+Inventory
+================
+Ingres inventory synchronisator
