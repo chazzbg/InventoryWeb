@@ -31,7 +31,7 @@ if (!isset($_COOKIE['PHPSESSID'])) {
 		$document = new KMLDocument('myportals', $player_data['name']. ' portal keys',@date('Y-m-d H:m:s'), 'Portal keys list of '.$player_data['name']);
 		foreach ($keys as $k){
 			$style = new KMLStyle('style'.$i);
-			$style->setIconStyle('http://inventory.worldofchazz.net/img/portal_marker_sq.png','','normal',0.5,true, 17,2);
+			$style->setIconStyle('http://'.$_SERVER['HTTP_HOST'].'/img/portal_marker_sq.png','','normal',0.5,true, 17,2);
 			$document->addStyle($style);
 			$placeMark = new KMLPlaceMark('', $k['title'].' ['.$k['count'].']', $k['address'],$k['address'].'<img src="'.$k['image'].'" />');
 			$placeMark->setGeometry(new KMLPoint($k['location']['long'], $k['location']['lat']));

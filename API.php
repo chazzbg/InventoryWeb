@@ -8,7 +8,7 @@
 class API {
 
 	private $handshakeData = array(
-		'nemesisSoftwareVersion' => '2014-02-08T00:28:42Z+fba6de31f190+opt', // 1.45.1
+		'nemesisSoftwareVersion' => '2014-02-24T19:17:49Z+31337a6a12db+opt', // 1.46.1
 		'deviceSoftwareVersion'  => '4.2'
 	);
 	private $hs_uri = 'https://m-dot-betaspike.appspot.com/handshake?json=';

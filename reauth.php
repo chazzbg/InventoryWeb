@@ -42,8 +42,8 @@
 				<p>You can scan the code bellow to download our app</p>
 				<a href="<?php echo $inventoryapp; ?>" class="thumbnail">
 					<img
-						data-src="http://qrfree.kaywa.com/?l=1&s=8&d=http%3A%2F%2Finventory.worldofchazz.net%2F<?php echo $inventoryapp; ?>"
-						src="http://qrfree.kaywa.com/?l=1&s=8&d=http%3A%2F%2Finventory.worldofchazz.net%2F<?php echo $inventoryapp; ?>"
+						data-src="http://qrfree.kaywa.com/?l=1&s=8&d=http%3A%2F%2F<?php echo $_SERVER['HTTP_HOST'];?>%2F<?php echo $inventoryapp; ?>"
+						src="http://qrfree.kaywa.com/?l=1&s=8&d=http%3A%2F%2F<?php echo $_SERVER['HTTP_HOST'];?>%2F<?php echo $inventoryapp; ?>"
 						alt="...">
 				</a>
 			</div>

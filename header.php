@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Ingress Inventory by Chazz</title>
+        <title>Ingress Inventory</title>
 		<link href='http://fonts.googleapis.com/css?family=Coda:400,700' rel='stylesheet' type='text/css' />
 	    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
 	    <link href="css/bootstrap-theme.css?<?php echo _VERSION_; ?>" rel='stylesheet' type='text/css'>
@@ -28,21 +28,7 @@
 		?>
 
 
-		<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-4977004-15']);
-  _gaq.push(['_setDomainName', 'worldofchazz.net']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
 		<?php } ?>
 <div class="container">
